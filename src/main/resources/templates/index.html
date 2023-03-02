@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+
+    <form method="POST" action="/order">
+      <table>
+        <tr>
+          <td>Customer name:</td>
+          <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+          <td>Delivery Date:</td>
+          <td><input type="date" name="deliveryDate" /></td>
+        </tr>
+        <tr>
+          <td>Shipping address:</td>
+          <td><input type="text" name="shipAddress"/></td>
+        </tr>
+        <tr>
+            <td>Notes:</td>
+            <td><input type="text" name="notes"/></td>
+          </tr>
+        <tr>
+        <tr>
+          <td></td>
+          <td><button type="submit">Add items</button></td>
+        </tr>
+      </table>
+    </form>
+    
+</body>
+</html>
